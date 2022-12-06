@@ -1,0 +1,11 @@
+import re
+def check(txt):
+    x=re.search("\d{3}-5{3}-\d{4}",txt)
+    
+    if x == None:
+        print("false")
+    else :
+        print("True")
+        
+
+check("454-555-4242")
